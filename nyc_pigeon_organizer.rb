@@ -1,10 +1,10 @@
 def nyc_pigeon_organizer(data)
   reorganized = {}
   
-  data.each do |pigeon_name, description|
-    description.each do |keys, values|
-      values.each do |name|
-        reorganized[name] = {
+  data.each do |org_keys, hash_values|
+    hash_values.each do |inner_keys, inner_values|
+      inner_values.each do |bird_name|
+        reorganized[bird_name] = {
           :color => [],
           :gender => [],
           :lives => []
