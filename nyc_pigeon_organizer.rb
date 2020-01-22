@@ -18,6 +18,7 @@ def nyc_pigeon_organizer(data)
       final_keys.each do |item|
         if name === item
           reorganized[item][:color] << bird_color.to_s
+        end
       end
     end
   end
