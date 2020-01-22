@@ -1,4 +1,5 @@
 def nyc_pigeon_organizer(data)
+  
   reorganized = {}
   
   data.each do |org_keys, hash_values|
@@ -46,4 +47,5 @@ def nyc_pigeon_organizer(data)
   end
   
   reorganized
+  
 end
