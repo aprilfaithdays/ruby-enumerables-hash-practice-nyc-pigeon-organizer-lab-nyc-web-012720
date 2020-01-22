@@ -13,7 +13,11 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  
+  data[:color].each do |color, name|
+    name.each do |bird|
+      
+    end
+  end
   
   reorganized
 end
